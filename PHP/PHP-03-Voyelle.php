@@ -9,7 +9,7 @@ $maChaine = "ma chaine de test des voyelles";
 $mesVoyelles = 0;
 
 foreach($voyelles as $voyelle){
-    $numbVoy = substr_count($maChaine, $voyelle);
+    $numbVoy = substr_count(strtolower($maChaine), $voyelle);
     $mesVoyelles += $numbVoy;
 }
     

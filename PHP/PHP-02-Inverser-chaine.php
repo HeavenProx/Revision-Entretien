@@ -8,7 +8,7 @@ $chaine = "ma chaine de test";
 $inverse = "";
 $longueur = strlen($chaine);
 
-for($i = $longueur; $i >= 0; $i--){
+for($i = ($longueur - 1); $i >= 0; $i--){
     $inverse .= $chaine[$i];
 }
 
