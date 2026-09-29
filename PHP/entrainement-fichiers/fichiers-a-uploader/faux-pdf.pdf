@@ -1,0 +1,1 @@
+<?php echo "Je ressemble à un .pdf mais je suis du PHP exécutable. finfo doit me démasquer."; ?>

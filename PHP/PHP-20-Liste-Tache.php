@@ -13,11 +13,11 @@ class Tache{
         $this->faite = $faite;
     }
 
-    public function getNom(){
+    public function getNom(): string{
         return $this->nom;
     }
 
-    public function getFait(){
+    public function getFait(): bool{
         return $this->faite;
     }
 
